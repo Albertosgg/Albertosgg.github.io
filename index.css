@@ -5,3 +5,19 @@ img.LogoPri{
 body{
     background-color: red;
 }
+ol{
+    padding: 30PX;
+    text-align: center;
+}
+li{
+    display: inline;
+    font-size: 40px;
+    text-align: center;
+    color: wheat;
+    
+    
+    
+}
+li:hover{
+    background-color: black 
+}
