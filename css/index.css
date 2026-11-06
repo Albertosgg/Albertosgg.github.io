@@ -1,9 +1,18 @@
-img.LogoPri{
+header img {
     width: 250px;
-    margin-left: 44%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
-body{
-    background-color: #D1D1D1;
+header {
+    width: 100%;
+    text-align: center;
+    padding-top: 0;
+}
+body {
+    background-color: #d3d3d3;
+    font-family: Georgia, "Times New Roman", serif;
+    min-height: 100vh;
 }
 ol{
     padding: 30PX;
@@ -15,16 +24,44 @@ li{
     text-align: center;
     color: #212121;
     
-    
-    
-    
 }
-a{
+nav a {
+    color: #111;
     text-decoration: none;
-    color: #212121 ;
+    font-size: 38px;
+    font-weight: normal;
+    transition: color 0.3s ease;
+    padding: 20px;
 }
-li:hover{
-    background-color: grey;
-    font-size: 30px; 
-    
+nav a:hover {
+    color: purple;
 }
+nav {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.video-resumen {
+    width: 650px;
+    margin: 40px 30px;
+    text-align: center;
+}
+
+.video-resumen a img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+}
+
+.video-resumen h2 {
+    font-size: 28px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.video-resumen p {
+    font-size: 17px;
+    line-height: 1.5;
