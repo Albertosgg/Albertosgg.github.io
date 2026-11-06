@@ -1,3 +1,65 @@
 body{
     background-color: wheat;
+    font-family: Arial, Helvetica, sans-serif;
+}
+img.LogoPri{
+    width: 250px;
+    margin-left: 44%;
+    display: block;
+}
+h1{
+    display: inline;
+    font-size: 55px;
+    text-align: left;
+    padding: 30px;
+    
+}
+ header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 40px;
+   
+   
+}
+
+
+nav {
+    display: flex;
+    gap: 30px;
+}
+
+nav a {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #1d428a;
+    text-transform: uppercase;
+    transition: color 0.2s;
+}
+
+nav a:hover {
+    color: #c8102e;
+}
+.Equipos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+    justify-items: center;
+    align-items: center;
+}
+
+.Equipos img {
+    width: 140px;
+    height: 140px;
+    object-fit: contain;
+    
+
+}
+
+.Equipos img:hover {
+    transform: scale(1.15);
 }
